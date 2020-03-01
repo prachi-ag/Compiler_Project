@@ -1,0 +1,46 @@
+#include <stdio.h>
+#include <assert.h>
+#include <ctype.h>
+#include <locale.h>
+#include <math.h>
+
+struct address
+{
+	int name[50];
+	char street[100];
+	char city[50];
+	char state[20];
+	int pin; 
+};
+
+union test
+{
+	int x;
+	double y[10];
+};
+
+int isPrime(int n,char x[10])
+{
+	struct address s1[10][20];
+	union test j1[10];
+	int i[10],v[10][10];
+	char p,q,r,s;
+	float l;
+	char t;
+	if(n <= 1)
+		return false;
+	for(i = 2; i < n; i++){
+		if (n % i == 0)
+			return false;
+	}
+	return true;
+}
+
+int main()
+{
+	if(isPrime(11))
+		printf("Yes");
+	else
+		printf("No");
+	return 0;
+}
