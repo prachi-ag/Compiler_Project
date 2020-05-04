@@ -1,0 +1,8 @@
+Steps to Run The Program
+1) Install JDK and JRE into you system from www.oracle.com
+2) Add that to your System PATH's
+3) Open the Memory Mamangement for c program folder in command Prompt
+4) Type:
+	4.1) javac *.java
+	4.2)java Main
+5) Program will exeute automatically 

@@ -1,0 +1,44 @@
+#include <stdio.h>
+int main()
+{
+	int x = 10;
+	while(1){
+		x+=10;
+	}
+	while(true){
+		x+=10;
+	}
+	int j=11;
+	while(j>10){
+		x+=10;
+		j++;
+	}
+	int k= 0;
+	while(k<=10){
+		x+=10;
+		k--;
+	}
+	for(l=11;l>10;l++){
+		x+=10;
+	}
+	for(l=10;l<11;l--){
+		x+=10;
+		break;
+	}
+	for(l=9;1;l++){
+		x+=10;
+		break;
+	}
+	for(l=9;true;l++){
+		x+=10;
+		break;
+	}
+	for(;;){
+		x+=10;
+	}
+	for(i=9;;i++){
+		x+=10;
+	}
+	for(;;i++){
+	}
+}

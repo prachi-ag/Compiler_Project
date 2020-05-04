@@ -1,0 +1,56 @@
+                  
+				                                           -----:case for infinite (for loop):-------
+											
+						 case:1   condition always true
+						     
+							        for(int i=0;true;i++)
+									{
+									     no break statement.
+									}
+									
+						case:2    depend on N(positive or negative)	
+                      
+                                                               for(int i=0;i>-1;i++)
+                                                                     {
+									 no break statement.
+								     }
+						 case:3    depend on I apprach to N
+						            for(int i=0;i<n;i--)
+									{
+									   no break statement.
+									}
+									
+									
+									
+									
+									                      ------:case for infinite (While loop):-------
+														  
+														  
+							case:1    check condition always "1"
+							           
+									   while(1)
+									   {
+									        no break statement.
+									   }
+									   
+						    case :2    check condition always "true"
+							       
+								        while(true)
+										{
+										    no break statement.
+										}
+							case:3   if condition I>n and I should always increase
+							              than while loop always tend to infinite.
+										  
+							case :4   if condition I<n and I should  always decrease
+							              than while loop always tend to infinite.
+										  
+							case :5  While(condition) can always depend on number of variable we have used.
+							
+							
+							
+							case:6    In case of (for lopp) or (while loop)
+							            if conditon is any thing but in under loop break statement is there with  IF STATEMENT(always false) 
+										  than loop move to infinite loop.
+										  
+										  (other wise loop is finite loop)
